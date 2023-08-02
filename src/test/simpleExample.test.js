@@ -1,4 +1,4 @@
-import { isPositive, doSomething } from '../stuff'
+import { isPositive, doSomething } from '../simpleExample'
 
 describe('stuff', () => {
     it('isPositive should return true if the number is positive', () => {
