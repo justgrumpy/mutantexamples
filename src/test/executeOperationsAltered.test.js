@@ -1,7 +1,7 @@
 import { performOperations } from '../executeOperationsAltered'
 
 describe('performOperations', () => {
-    xit.each([
+    it.each([
         { itemOfInterest: 'A', shouldBeTrue: 'item1', },
         { itemOfInterest: 'B', shouldBeTrue: 'item2', },
         { itemOfInterest: 'C', shouldBeTrue: 'item3', }
