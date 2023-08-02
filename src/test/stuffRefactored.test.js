@@ -27,18 +27,8 @@ describe('doStuff', () => {
 
     it('all records', () => {
         const expected = [
-            {
-                createdByFirst: "John",
-                createdByName: "John Doe",
-                createdDate: 819195840000,
-                jobTitle: "Janitor",
-            },
-            {
-                createdByFirst: "Bob",
-                createdByName: "Bob Jones",
-                createdDate: 819378660000,
-                jobTitle: "Manager",
-            }
+            { createdByName: "John Doe" },
+            { createdByName: "Bob Jones" }
         ];
         expect(doStuff(recordsIn)).toEqual(expected);
     })

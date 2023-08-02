@@ -1,12 +1,6 @@
-
 const getRecordData = (recordData) => {
     return recordData?.map((record) => {
-        return {
-            createdDate: new Date(record.CreatedDate).getTime(),
-            createdByName: record.Name,
-            createdByFirst: record.FirstName,
-            jobTitle: record.Job_Title,
-        };
+        return { createdByName: record.Name };
     });
 }
 
